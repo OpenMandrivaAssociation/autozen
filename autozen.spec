@@ -14,7 +14,6 @@ Source3: 	%{name}16.png
 URL:		http://www.linuxlabs.com/autozen.html
 License:	GPL
 Group:		Sound
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	gtk-devel
 
 %description
