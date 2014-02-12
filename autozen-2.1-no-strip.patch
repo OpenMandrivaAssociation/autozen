@@ -1,0 +1,14 @@
+diff -urN autozen-2.1/Makefile autozen-2.1-patched/Makefile
+--- autozen-2.1/Makefile	2001-09-17 03:10:02.000000000 +1100
++++ autozen-2.1-patched/Makefile	2014-02-12 15:09:51.139881179 +1100
+@@ -29,8 +29,8 @@
+ install: all
+ 	install -d $(PREFIX)/bin
+ 	install zentime $(PREFIX)/bin
+-	install -s seq2wav $(PREFIX)/bin
+-	install -s autozen $(PREFIX)/bin
++	install seq2wav $(PREFIX)/bin
++	install autozen $(PREFIX)/bin
+ 	install -d $(PREFIX)/share/AutoZen
+ 	install -m 644 *.seq $(PREFIX)/share/AutoZen
+ 	install -d $(PREFIX)/share/doc/AutoZen/HTML/images
