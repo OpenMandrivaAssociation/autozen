@@ -1,7 +1,7 @@
 Summary:	Brainwave controller
 Name:		autozen
 Version:	2.1
-Release:	7
+Release:	8
 License:	GPLv2+
 Group:		Sound
 Url:		http://www.linuxlabs.com/autozen.html
