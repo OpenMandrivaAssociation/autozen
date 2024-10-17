@@ -4,7 +4,7 @@ Version:	2.1
 Release:	8
 License:	GPLv2+
 Group:		Sound
-Url:		http://www.linuxlabs.com/autozen.html
+Url:		https://www.linuxlabs.com/autozen.html
 Source0:	%{name}-%{version}.tar.bz2
 Source1:	%{name}48.png
 Source2:	%{name}32.png
