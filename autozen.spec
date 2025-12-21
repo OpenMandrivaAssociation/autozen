@@ -10,6 +10,7 @@ Source1:	%{name}48.png
 Source2:	%{name}32.png
 Source3:	%{name}16.png
 Patch0:		autozen-2.1-no-strip.patch
+BuildRequires:	make
 BuildRequires:	pkgconfig(gtk+)
 
 %description
